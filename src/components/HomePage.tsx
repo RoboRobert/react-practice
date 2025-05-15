@@ -1,8 +1,10 @@
+import { Link } from "react-router-dom";
+
 function HomePage() {
   return (
-    <>
-      <h1>Welcome to my React</h1>
-    </>
+    <nav>
+       <Link to="game">Play Tic Tac Toe</Link>
+    </nav>
   )
 }
 

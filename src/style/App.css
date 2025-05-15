@@ -5,7 +5,11 @@
   text-align: center;
 }
 
-button {
+.play-button {
+  margin-bottom: 20px;
+}
+
+.tic-tac-button {
   width: 10vw;
   aspect-ratio: 1/1;
   font-size: 8vw;
